@@ -1,0 +1,122 @@
+
+body {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.7;
+    color: #2c3e50; 
+    background-color: #ecf0f1;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3 {
+    color: #315982; 
+    font-weight: 700;
+}
+
+p {
+    font-size: 17px;
+    margin-bottom: 20px;
+    color: #404949; 
+}
+
+.header-logo {
+    background-color: lightblue; 
+}
+
+.header-logo .logo-img {
+    width: 70px;
+    height: 80px;   
+  
+}
+
+.navbar {
+    background-color:lightblue; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-brand, .nav-link {
+    color: #5e89f6 !important; 
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #070400 !important; 
+}
+
+.container {
+    padding: 60px 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    margin-top: -40px;
+}
+
+.contact-section {
+    max-width: 800px;
+    margin: auto;
+    padding: 40px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+.contact-section h1 {
+    color: #315982;
+}
+
+.contact-section .form-control {
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+
+.contact-section .form-control:focus {
+    border-color: #3498db;
+    box-shadow: 0 0 0 0.2rem rgba(52, 152, 219, 0.25);
+}
+
+.contact-section .btn-primary {
+    background-color: #3498db;
+    border-color: #3498db;
+}
+
+.contact-section .btn-primary:hover {
+    background-color: #2980b9;
+    border-color: #2980b9;
+}
+
+footer {
+    background-color: #2c3e50 !important; 
+    color: #bdc3c7; 
+    text-align: center;
+    padding: 40px 0;
+    margin-top: 50px;
+}
+
+footer h5 {
+    color: #28d4ff; 
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+hr {
+    width: 600px;
+    height: 2px;
+    background-color: #10343d;
+    margin: 0 auto 20px;
+    border: none;
+}
+footer p {
+    font-size: 15px;
+    color: #1e2123; 
+    margin-bottom: 15px;
+}
+
+footer .row {
+    margin-bottom: 20px;
+}
+
+footer .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
