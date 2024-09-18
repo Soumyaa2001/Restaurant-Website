@@ -61,6 +61,17 @@ p {
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
 }
 
+.modal-content {
+    max-width: 700px;
+    max-height: fit-content;
+    margin: auto;
+    margin-top: 150px;
+    padding: 40px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
 .contact-section h1 {
     color: #315982;
 }
