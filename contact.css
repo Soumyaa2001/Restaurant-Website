@@ -26,14 +26,9 @@ p {
 }
 
 .header-logo .logo-img {
-    width: 70%;
-    height: 80%;   
+    width: 70px;
+    height: 80px;   
   
-}
-
-img {
-    max-width: 100%;
-    height: auto;
 }
 
 .navbar {
