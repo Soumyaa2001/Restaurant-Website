@@ -65,8 +65,8 @@ p {
 }
 
 .modal-content {
-    max-width: 70%;
-    max-height: fit-content;
+    max-width: auto;
+    max-height: auto;
     margin: auto;
     margin-top: 150px;
     padding: 40px;
