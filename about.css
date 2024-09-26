@@ -155,7 +155,7 @@ footer h5 {
     font-weight: bold;
 }
 hr {
-    width: 600px;
+    width: 100%;
     height: 2px;
     background-color: #10343d; 
     margin: 0 auto 20px;
