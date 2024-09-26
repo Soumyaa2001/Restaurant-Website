@@ -63,7 +63,17 @@ p {
     margin-bottom: 2rem;
 }
 
-/* Tab Navigation */
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.card {
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
 .nav-tabs .nav-link {
     color: #004085;
     font-weight: bold;
@@ -74,7 +84,6 @@ p {
     color: #fff;
 }
 
-/* Table Styling */
 .table-hover tbody tr:hover {
     background-color: #f1f1f1;
 }
@@ -89,7 +98,9 @@ p {
     vertical-align: middle;
 }
 
-/* Image Styling */
+.table tbody td:last-child {
+    text-align: center;
+}
 .table img {
     width: 60px;
     height: auto;
@@ -129,7 +140,7 @@ footer .row {
 }
 
 footer .container {
-    max-width: 1200px;
+    max-width: 100%;
     margin: 0 auto;
     padding: 0 15px;
 }
