@@ -106,32 +106,66 @@
     </div>
 
     <footer>
-        <div class="container mt-2 ">
-            <div class="row ">
-                <div class="col-md-6 mt-4">
-                    <h5>Hours</h5>
-                    <p>Monday - Friday: 11am - 10pm</p>
-                    <p>Saturday - Sunday: 9am - 11pm</p>
-                </div>
-                <div class="col-md-6 mt-4">
-                    <h5>Contact Us</h5>
-                    <p>Email: info@ghoshkitchen.com</p>
-                    <p>Phone: +91 12345 67890</p>
-                    <p>Address: 123 Food Street, Kolkata, India</p>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-md-12">
-                    <p>&copy; 2025 Ghosh Kitchen. All rights reserved.</p>
-                </div>
-            </div>
-        </div>
-    </footer> 
 
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
-    <script>
+        <div class="container mt-2 ">
+        <div class="row ">
+        <div class="col-md-6 mt-4">
+        <h5>Hours</h5>
+        <p>Monday - Friday: 11am - 10pm</p>
+        <p>Saturday - Sunday: 9am - 11pm</p>
+        </div>
+        <div class="col-md-6 mt-4">
+        <h5>Contact Us</h5>
+        <a href="mailto:ghoshsoumyaneel@gmail.com">ghoshsoumyaneel@gmail.com</a>
+        
+        <div class="social">
+        <a href="#" target="_blank"  rel="noopener noreferrer">
+        <img src="./assets/facebook-icon.svg" alt="Facebook"/>
+        </a>
+        
+        <a href="https://www.instagram.com/soumyaneelghosh/" target="_blank"  rel="noopener noreferrer">
+        <img src="./assets/instagram_icon.svg" alt="Instagram"/>
+        </a>
+        
+        <a href="https://github.com/Soumyaa2001" target="_blank"  rel="noopener noreferrer">
+        <img src="./assets/github-icon.svg" alt="GitHub" />
+        </a>
+        
+        <a href="#" target="_blank"  rel="noopener noreferrer">
+        <img src="./assets/icons8-twitterx-250.svg" alt="Twitter" />
+        </a>
+        
+        <a href="https://www.linkedin.com/in/soumyaneelghosh/" target="_blank"  rel="noopener noreferrer">
+        <img src="./assets/linkedin-icon.svg" alt="Linkedin"/>
+        </a>
+        </div>
+        
+        <p>Phone: +91 12345 67890</p>
+        <p>Address: 123 Food Street, Kolkata, India</p>
+        </div>
+        </div>
+        <div class="row">
+        <div class="col-md-12">
+        <p>&copy; SoumyaneelGhosh, <span id="datee"></span>, All rights reserved.</p>
+        </div>
+        </div>
+        </div>
+        </footer>
+        
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+        <script>
         $("#carousel").load("carousel.html");
-    </script>
+        
+        let myDate = document.querySelector("#datee");
+        
+        const yes = new Date().getFullYear();
+        myDate.innerHTML = yes;
+        
+        </script>
+        
+
+
+
 </body>
 </html>
