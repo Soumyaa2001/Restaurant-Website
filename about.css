@@ -5,7 +5,8 @@ body {
     overflow-x: hidden;
     color: #2c3e50; 
     background-color: #ecf0f1;
-    margin: 0;
+    margin-left: 0%;
+    margin-right: 0%;
     max-width: 100% !important;
     padding: 0;
 }
